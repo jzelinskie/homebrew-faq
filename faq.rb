@@ -12,4 +12,8 @@ class Faq < Formula
     system "mv", "faq-darwin-amd64", "faq"
     bin.install "faq"
   end
+
+  test do
+    assert_equal "2\n", pipe_output("#{bin}/faq -r .bar | sed 's/\x1b\[[0-9;]*m//g'", '{"foo":1, "bar":2}')
+  end
 end
