@@ -3,8 +3,8 @@ require "formula"
 class Faq < Formula
   desc "Format Agnostic jQ"
   homepage "https://github.com/jzelinskie/faq"
-  url "https://github.com/jzelinskie/faq/releases/download/0.0.3/faq-darwin-amd64"
-  sha256 "95b615307bfa525c578d774ceb5bd2e060d902442497f9ffd895b6afdc89f3f6"
+  url "https://github.com/jzelinskie/faq/releases/download/0.0.4/faq-darwin-amd64"
+  sha256 "baa61466aeb816667c1ef181fb9da8dfeb54db619e11991011bd33363fe02970"
 
   depends_on "jq"
 
