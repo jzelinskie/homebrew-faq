@@ -3,9 +3,9 @@ require "formula"
 class Faq < Formula
   desc "Format Agnostic jQ"
   homepage "https://github.com/jzelinskie/faq"
-  url "https://github.com/jzelinskie/faq/releases/download/0.0.6/faq-darwin-amd64"
-  sha256 "bfcd6f527d1ba74db6bdd6bfb551a4db9c2c72f01baebf8069e9849b93dceef9"
-  version "0.0.6"
+  url "https://github.com/jzelinskie/faq/releases/download/0.0.7/faq-darwin-amd64"
+  sha256 "869f4d8acaa1feb11ce76b2204c5476b8a04d9451216adde6b18e2ef2f978794"
+  version "0.0.7"
 
   depends_on "jq"
   bottle :unneeded
