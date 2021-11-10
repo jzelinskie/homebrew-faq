@@ -8,7 +8,6 @@ class Faq < Formula
   version "0.0.7"
 
   depends_on "jq"
-  bottle :unneeded
 
   def install
     system "mv", "faq-darwin-amd64", "faq"
